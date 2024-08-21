@@ -182,5 +182,12 @@
       "}",
     ],
     "description": "Flutter Stateless Widget"
+  },
+  "Mock class": {
+    "prefix": "mock",
+    "body": [
+      "class Mock${2:className} extends Mock implements ${2:className} {}",
+    ],
+    "description": "Mock class to test"
   }
 }
